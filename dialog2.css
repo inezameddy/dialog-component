@@ -1,0 +1,161 @@
+body{
+    background:  black;
+    color: white;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.chat{
+    display: flex;
+    gap: 16px;
+}
+.profile_pic{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+}
+.chat_name_time{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.chat_name{
+    font-size: 16px;
+    margin: 0;
+}
+/* .chat_time{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+} */
+
+.last_message{
+    font-size: 13px;
+    margin: 0;
+}
+dialog{
+    width: 420px;
+    height: 280px;
+    background:#111b21;
+    ;
+    border: none;
+    box-shadow:5px 6px 13px  rgb(0,0,0, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.title {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: white;
+}
+.title svg{
+    fill:  white;
+
+}
+.title h1{
+    font-size: 22px;
+}
+.close{
+    background: #191919;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow:5px 6px 13px  rgb(0,0,0, 0.5); 
+
+
+}
+.close svg{
+    fill: white;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.mb-3{
+    width: 420px;
+    height: 100px;
+    background: #2d3133;
+    border: none;
+    box-shadow:5px 6px 13px  rgba(63, 68, 75, 0.5);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;  
+    color: aliceblue; 
+    gap: 50px; 
+    row-gap: 20px ;
+
+
+
+}
+.dialog-actions{
+    width: 50%;
+    height: 50%;
+    top: 10%;
+    left: 30px;
+    padding-left: 10px; 
+    display: flex;  
+}
+.clean-btn{
+    display: flex;
+    position: absolute;
+    height: 23%;
+    width: 12%;
+    top: 120%;
+    right: 85%;
+    color:#e51661;
+    border: 1px solid gray;
+    background-color: #303136;
+    border-radius: 3px;
+    font-weight: bold;
+   
+}
+.cancel-confirm{
+    display: flex;
+    position: absolute;
+    top: 120%;
+    left: 65%;
+    height: 27%;
+    width: 20%;
+    gap: 10px;
+}
+.confirm-btn{
+    background: #0b0b1f;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-weight: bold;
+    color:  #6001ff;
+}
+.canfirm-btn{
+    color: rgb(215, 208, 208);
+    font-weight: bold;
+}
+label{
+    
+    color: whitesmoke;
+}
+.cancel-btn{
+    background:  #585b63;
+    color: whitesmoke;
+}
+input{
+    background: #191919;
+}

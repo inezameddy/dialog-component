@@ -1,0 +1,129 @@
+body{
+    background: #111b21;
+    color: white;
+    font-family: sans-serif;
+    font-size: clamp(1rem, 0.96rem + 0.18vw, 1.125rem);
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: var(--color-core-bg);
+    color: var(--color-core-text);
+    font-family: Segoe UI,system-ui,-apple-system,sans-serif;
+    box-shadow: inset;
+}
+.site-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 4rem;
+        padding: 0 clamp(1.375rem, 1.2rem + 0.89vw, 2rem);
+        border-bottom: 1px solid var(--color-stroke);
+        line-height: 1;
+        font-family: Google Sans,Segoe UI,system-ui,-apple-system,sans-serif;
+    
+
+}
+.chat{
+    display: flex;
+    gap: 16px;
+}
+.profile_pic{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+}
+.chat_name_time{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.chat_name{
+    font-size: 16px;
+    margin: 0;
+}
+/* .chat_time{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+} */
+
+.last_message{
+    font-size: 13px;
+    margin: 0;
+}
+dialog{
+    width: 420px;
+    height: 280px;
+    background: #4d565b;
+    border: none;
+    box-shadow:5px 6px 13px  rgb(0,0,0, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.title {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: white;
+}
+.title svg{
+    fill: white;
+    
+}
+.title h1{
+    font-size: 22px;
+}
+.close{
+    background: black;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow:5px 6px 13px  rgb(0,0,0, 0.5); 
+
+
+}
+.close svg{
+    fill: white;
+    border: 1px solid#111b21;
+}
+.content{
+ 
+    width: 100%;
+    background:  hwb(203 40% 1%)( 40% 1%)( 40% 1%);
+    height: 100%;
+}
+
+.dialog-action{
+    background: burlywood;
+    display: flex;
+}
+.btn{
+    box-sizing: border-box;
+    
+}
+.clear-btn{
+    color: red;
+}
+.cancel-btn{
+    color: black;
+}
+.confirm-btn{
+    color: blue;
+}
+    
+   
+    

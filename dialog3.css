@@ -1,0 +1,94 @@
+body{
+  background: #111b21;
+  color: rgb(72, 72, 72);
+  font-family: sans-serif;
+}
+
+dialog{
+  width: 350px;
+  height: 150px;
+  background:rgb(0, 0, 0);
+  border: none;
+  box-shadow:5px 6px 13px  rgba(8, 5, 5, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+
+}
+
+.header {
+  width: 100%;
+  height: 38%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #1a252b;
+}
+.title {
+  display: flex;
+  gap:12px;
+  align-items: center;
+  color:rgb(255, 255, 255);
+}
+.title h1{
+  font-size: 13px;
+  position: absolute;
+  right: 15px;
+}
+.title svg{
+  fill: #d2d3d7;
+  color: #a5a7af;
+  height: 30px;
+  width: 30px;
+}
+.content{
+
+  width: 100%;
+  background: #111b21;
+  height: 100%;
+  justify-content: space-between;
+}
+.button{
+  width:100%;
+  height: 42%;
+  background: #111b21;
+  align-items: center;
+  border: 20px;
+  padding-top: 0%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+   display: flex;
+}
+.cancel-btn{
+  background: gray;
+  display: flex;
+  gap:16px;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 20px;
+  border: none;
+  border-radius: 6%;
+  height: 30px;
+  width: 75px;
+  position: absolute;
+  left: 18s0px;
+}
+.confirm-btn{
+  background: #111b21;
+  display: flex;
+  gap:20px;
+  align-items: center;
+  color: #3740ff;
+  font-size: 15px;
+  border-radius: 5%;
+  height: 33px;
+  width: 80;
+  position: absolute;
+  right: 10px;
+
+}
